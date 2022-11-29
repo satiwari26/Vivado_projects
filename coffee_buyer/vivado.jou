@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct  5 17:58:38 2022
+# Process ID: 13520
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/coffee_buyer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11576 C:\Users\tiwar\OneDrive\Desktop\vivadoProjects\coffee_buyer\coffee_buyer.xpr
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/coffee_buyer/vivado.log
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/coffee_buyer\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/coffee_buyer/coffee_buyer.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source CoffeeBuyerSim.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_sim
+launch_simulation
+source CoffeeBuyerSim.tcl
+close_sim
+launch_simulation
+source CoffeeBuyerSim.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_sim
+launch_simulation
+source CoffeeBuyerSim.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+launch_simulation
+source CoffeeBuyerSim.tcl
+close_sim

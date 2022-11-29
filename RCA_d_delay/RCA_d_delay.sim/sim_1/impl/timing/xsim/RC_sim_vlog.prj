@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"RC_sim_time_impl.v" \
+
+sv xil_defaultlib  \
+"../../../../../RCA_d_delay.srcs/sim_1/imports/new/RC_sim.sv" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct 12 22:17:34 2022
+# Process ID: 11076
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Modular_design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14792 C:\Users\tiwar\OneDrive\Desktop\vivadoProjects\Modular_design\Modular_design.xpr
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Modular_design/vivado.log
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Modular_design\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+start_guopen_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Modular_design/Modular_design.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source Modular_sim.tcl
+close [ open C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Modular_design/Modular_design.srcs/sources_1/new/k.sv w ]
+add_files C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Modular_design/Modular_design.srcs/sources_1/new/k.sv
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Modular_design/Modular_design.srcs/sources_1/new/k.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Modular_design/Modular_design.srcs/sources_1/new/k.sv
+remove_files  C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Modular_design/Modular_design.srcs/sources_1/new/k.sv
+file delete -force C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Modular_design/Modular_design.srcs/sources_1/new/k.sv
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+refresh_design
+close_sim
+launch_simulation
+source Modular_sim.tcl

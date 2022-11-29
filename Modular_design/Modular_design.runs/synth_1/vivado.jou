@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct 12 23:06:50 2022
+# Process ID: 24320
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Modular_design/Modular_design.runs/synth_1
+# Command line: vivado.exe -log Main_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main_module.tcl
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Modular_design/Modular_design.runs/synth_1/Main_module.vds
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Modular_design/Modular_design.runs/synth_1\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+source Main_module.tcl -notrace

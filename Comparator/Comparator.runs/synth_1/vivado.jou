@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct 12 19:47:00 2022
+# Process ID: 4516
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Comparator/Comparator.runs/synth_1
+# Command line: vivado.exe -log Big_comparator.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Big_comparator.tcl
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Comparator/Comparator.runs/synth_1/Big_comparator.vds
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Comparator/Comparator.runs/synth_1\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+source Big_comparator.tcl -notrace

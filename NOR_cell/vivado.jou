@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Nov  9 17:52:20 2022
+# Process ID: 9336
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/NOR_cell
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2804 C:\Users\tiwar\OneDrive\Desktop\vivadoProjects\NOR_cell\NOR_cell.xpr
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/NOR_cell/vivado.log
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/NOR_cell\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/NOR_cell/NOR_cell.xpr
+update_compile_order -fileset sources_1

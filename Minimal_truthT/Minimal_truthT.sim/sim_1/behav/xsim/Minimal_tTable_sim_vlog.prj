@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Minimal_truthT.srcs/sources_1/new/Minimal_tTable.sv" \
+"../../../../Minimal_truthT.srcs/sim_1/new/Minimal_tTable_sim.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

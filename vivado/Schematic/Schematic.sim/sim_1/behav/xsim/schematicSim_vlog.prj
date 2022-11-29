@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Schematic.srcs/sources_1/new/SchematicModule.sv" \
+"../../../../Schematic.srcs/sim_1/new/schematicSim.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

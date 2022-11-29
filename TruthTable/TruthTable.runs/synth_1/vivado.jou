@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Sep 27 11:44:32 2022
+# Process ID: 30364
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/TruthTable/TruthTable.runs/synth_1
+# Command line: vivado.exe -log TruthTable_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TruthTable_module.tcl
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/TruthTable/TruthTable.runs/synth_1/TruthTable_module.vds
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/TruthTable/TruthTable.runs/synth_1\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+source TruthTable_module.tcl -notrace

@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Oct  3 17:12:58 2022
+# Process ID: 2832
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/vivado/Schematic
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18660 C:\Users\tiwar\OneDrive\Desktop\vivadoProjects\vivado\Schematic\Schematic.xpr
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/vivado/Schematic/vivado.log
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/vivado/Schematic\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/vivado/Schematic/Schematic.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source schematicSim.tcl
+close_sim

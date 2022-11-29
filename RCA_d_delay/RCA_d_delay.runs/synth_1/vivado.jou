@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Oct 30 23:10:09 2022
+# Process ID: 1352
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/RCA_d_delay/RCA_d_delay.runs/synth_1
+# Command line: vivado.exe -log RC_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RC_adder.tcl
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/RCA_d_delay/RCA_d_delay.runs/synth_1/RC_adder.vds
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/RCA_d_delay/RCA_d_delay.runs/synth_1\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+source RC_adder.tcl -notrace

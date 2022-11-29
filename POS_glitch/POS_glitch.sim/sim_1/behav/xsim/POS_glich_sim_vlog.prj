@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../POS_glitch.srcs/sources_1/imports/new/SOP_glitch.sv" \
+"../../../../POS_glitch.srcs/sim_1/imports/new/SOP_glich_sim.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

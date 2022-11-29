@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Nov  6 21:59:22 2022
+# Process ID: 8608
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/reg_memory/reg_memory.runs/synth_1
+# Command line: vivado.exe -log reg_memory.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source reg_memory.tcl
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/reg_memory/reg_memory.runs/synth_1/reg_memory.vds
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/reg_memory/reg_memory.runs/synth_1\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+source reg_memory.tcl -notrace

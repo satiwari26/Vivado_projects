@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Oct 18 15:17:15 2022
+# Process ID: 4784
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/multiplier/multiplier.runs/synth_1
+# Command line: vivado.exe -log Multi.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Multi.tcl
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/multiplier/multiplier.runs/synth_1/Multi.vds
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/multiplier/multiplier.runs/synth_1\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+source Multi.tcl -notrace

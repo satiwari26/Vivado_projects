@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1664942455">
+  <File Type="ROUTE-PWR" Name="Minimal_tTable_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Minimal_tTable.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Minimal_tTable_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Minimal_tTable_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="Minimal_tTable.msk"/>
+  <File Type="ROUTE-CLK" Name="Minimal_tTable_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Minimal_tTable.vdi"/>
+  <File Type="BG-BIT" Name="Minimal_tTable.bit"/>
+  <File Type="BG-DRC" Name="Minimal_tTable.drc"/>
+  <File Type="BG-BGN" Name="Minimal_tTable.bgn"/>
+  <File Type="BG-BIN" Name="Minimal_tTable.bin"/>
+  <File Type="BITSTR-RBT" Name="Minimal_tTable.rbt"/>
+  <File Type="BITSTR-NKY" Name="Minimal_tTable.nky"/>
+  <File Type="BITSTR-BMM" Name="Minimal_tTable_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Minimal_tTable.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Minimal_tTable_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="Minimal_tTable.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Minimal_tTable.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="Minimal_tTable_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Minimal_tTable.hwdef"/>
+  <File Type="PLACE-IO" Name="Minimal_tTable_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Minimal_tTable_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Minimal_tTable_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Minimal_tTable_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Minimal_tTable_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="Minimal_tTable_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Minimal_tTable_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Minimal_tTable_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Minimal_tTable_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Minimal_tTable_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="Minimal_tTable_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Minimal_tTable_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Minimal_tTable_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Minimal_tTable_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Minimal_tTable_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Minimal_tTable_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Minimal_tTable_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Minimal_tTable_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Minimal_tTable_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="Minimal_tTable_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Minimal_tTable_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Minimal_tTable_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Minimal_tTable_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Minimal_tTable_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Minimal_tTable_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Minimal_tTable_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Minimal_tTable_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Minimal_tTable_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Minimal_tTable_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="Minimal_tTable.pdi"/>
+  <File Type="RCFI_FILE" Name="Minimal_tTable.rcfi"/>
+  <File Type="CFI_FILE" Name="Minimal_tTable.cfi"/>
+  <File Type="RNPI_FILE" Name="Minimal_tTable.rnpi"/>
+  <File Type="NPI_FILE" Name="Minimal_tTable.npi"/>
+  <File Type="RBD_FILE" Name="Minimal_tTable.rbd"/>
+  <File Type="ROUTE-RQS" Name="Minimal_tTable_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Minimal_tTable_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Minimal_tTable.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Minimal_tTable"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

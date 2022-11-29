@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Sep 27 10:50:54 2022
+# Process ID: 9316
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/vivado/Schematic/Schematic.runs/impl_1
+# Command line: vivado.exe -log SchematicModule.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SchematicModule.tcl -notrace
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/vivado/Schematic/Schematic.runs/impl_1/SchematicModule.vdi
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/vivado/Schematic/Schematic.runs/impl_1\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+source SchematicModule.tcl -notrace

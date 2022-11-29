@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Oct 27 22:02:34 2022
+# Process ID: 1896
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/b_RC_adder/b_RC_adder.runs/synth_1
+# Command line: vivado.exe -log RC_add.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RC_add.tcl
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/b_RC_adder/b_RC_adder.runs/synth_1/RC_add.vds
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/b_RC_adder/b_RC_adder.runs/synth_1\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+source RC_add.tcl -notrace

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Oct  5 12:56:31 2022
+# Process ID: 15264
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Judge_panel
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8008 C:\Users\tiwar\OneDrive\Desktop\vivadoProjects\Judge_panel\Judge_panel.xpr
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Judge_panel/vivado.log
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Judge_panel\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/Judge_panel/Judge_panel.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source JudgePanel_sim.tcl
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_sim

@@ -1,0 +1,95 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Nov 14 08:03:42 2022
+# Process ID: 18124
+# Current directory: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_decoder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2712 C:\Users\tiwar\OneDrive\Desktop\vivadoProjects\seven_seg_decoder\seven_seg_decoder.xpr
+# Log file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_decoder/vivado.log
+# Journal file: C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_decoder\vivado.jou
+# Running On: LAPTOP-4970DKBC, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8332 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_decoder/seven_seg_decoder.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source decode_sim.tcl
+close_sim
+close_project
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/clock_divider/clock_divider.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_decoder/seven_seg_decoder.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.srcs/sources_1/imports/new/decoder.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.srcs/sources_1/imports/new/decoder.sv
+close [ open C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.srcs/sources_1/new/seven_seg_refresh.sv w ]
+add_files C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.srcs/sources_1/new/seven_seg_refresh.sv
+close_project
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/clock_divider/clock_divider.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/clock_divider/clock_divider.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.srcs/sim_1/new/seven_seg_refresh.sv w ]
+add_files -fileset sim_1 C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.srcs/sim_1/new/seven_seg_refresh.sv
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.srcs/sim_1/new/seven_seg_refresh.sv] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.srcs/sim_1/new/seven_seg_refresh.sv
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.srcs/sim_1/new/refresh_sim.sv w ]
+add_files -fileset sim_1 C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.srcs/sim_1/new/refresh_sim.sv
+update_compile_order -fileset sim_1
+close_project
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/clock_divider/clock_divider.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source seven_seg_refresh.tcl
+close_sim
+launch_simulation
+source refresh_sim.tcl
+update_compile_order -fileset sim_1
+restart
+run 160 ns
+run 160 ns
+run 160 ns
+run 160 ns
+run all
+close_sim
+launch_simulation
+source refresh_sim.tcl
+restart
+run 160 ns
+run 160 ns
+run all
+close_sim
+close_project
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/clock_divider/clock_divider.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/tiwar/OneDrive/Desktop/vivadoProjects/seven_seg_refrsh/seven_seg_refrsh.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source refresh_sim.tcl
+close_sim
+launch_simulation
+source refresh_sim.tcl
+restart

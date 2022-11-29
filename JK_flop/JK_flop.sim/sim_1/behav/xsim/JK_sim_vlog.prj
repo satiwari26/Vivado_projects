@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../JK_flop.srcs/sources_1/new/JKk_flop.sv" \
+"../../../../JK_flop.srcs/sim_1/new/JK_sim.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
