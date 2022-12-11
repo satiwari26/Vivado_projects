@@ -1,22 +1,14 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Cal Poly
+// Engineer: Saumitra Tiwari
 // 
-// Create Date: 11/22/2022 02:33:58 PM
-// Design Name: 
-// Module Name: sequencer
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Create Date: 11/28/2022 08:41:12 AM
+// Module Name: FSM sequencer
+// Project Name: FInite state machines
+// Target Devices: Basys3
+// Description: The given circuit performs sequencing using finite state machine
+//
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -28,7 +20,7 @@ module sequencer(
 
     typedef enum{one,seven,zero,one1}state_type;
     state_type PS,NS;
-
+    
     //clk in seconds if needed
     logic second_clk=0;
     logic [31:0] count;
@@ -52,7 +44,7 @@ module sequencer(
     
 
     //creating register using sequential block
-    always_ff @(posedge second_clk or posedge RST)
+    always_ff @(posedge clk or posedge RST)
     begin
     if(RST==1)
     begin
@@ -115,29 +107,29 @@ module sequencer(
     end
     
     //displaying the sequence on number
-    
+    assign An = 4'b1110;
     always_comb
     begin
     case(PS)
         one:begin
             Cth=7'b1001111;
-             An = 4'b1110;
+             
         end
         seven:begin
             Cth=7'b1111000;
-             An = 4'b1110;
+             
         end
         zero:begin
             Cth=7'b1000000;
-             An = 4'b1110;
+             
         end
         one1:begin
             Cth=7'b1001111;
-             An = 4'b1110;
+             
         end
         default:begin
         Cth=7'b1000000;
-             An = 4'b1110;
+            
         end
     endcase
     end

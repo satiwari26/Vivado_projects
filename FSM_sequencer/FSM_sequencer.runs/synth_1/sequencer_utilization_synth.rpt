@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Mon Nov 28 17:10:42 2022
+| Date         : Fri Dec  2 10:55:19 2022
 | Host         : LAPTOP-4970DKBC running 64-bit major release  (build 9200)
 | Command      : report_utilization -file sequencer_utilization_synth.rpt -pb sequencer_utilization_synth.pb
 | Design       : sequencer

@@ -36,13 +36,22 @@ module sequence_sim();
      RST=0;
      #60;
      En=0;
-     
-     #120;
+     #40;
+     RST=1;
+     #20;
+     RST=0;
+     #40;
      En=1;
      #30;
      RST=1;
      #10;
      RST=0;
+     #20;
+     En = 0;
+     #20;
+     En = 1;
+     #40;
+     En=0;
      end
      
      always #5 clk=~clk;
